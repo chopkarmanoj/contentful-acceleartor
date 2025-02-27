@@ -12,11 +12,11 @@ const nextConfig: NextConfig = {
         hostname: 'espire-*.**',
         port: '',
       },
-      {
-        protocol: 'https',
-        hostname: 'contentful-*.**',
-        port: '',
-      },
+      // {
+      //   protocol: 'https',
+      //   hostname: 'contentful-*.**',
+      //   port: '',
+      // },
       // {
       //   protocol: 'https',
       //   hostname: 'contentful-accelerator.netlify.app',
