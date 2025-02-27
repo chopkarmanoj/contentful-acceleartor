@@ -17,11 +17,11 @@ const nextConfig: NextConfig = {
         hostname: 'contentful-*.**',
         port: '',
       },
-      {
-        protocol: 'https',
-        hostname: 'contentful-accelerator.netlify.app',
-        port: '',
-      },
+      // {
+      //   protocol: 'https',
+      //   hostname: 'contentful-accelerator.netlify.app',
+      //   port: '',
+      // },
       {
         protocol: 'https',
         hostname: 'images.ctfassets.net',
