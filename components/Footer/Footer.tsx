@@ -13,6 +13,7 @@ const Footer = ({ data }: FooterDataProps) => {
           width={600}
           height={400}
           alt={""}
+          unoptimized
         />
       </div>
       <div className="plain-text-reusable col-12 col-lg-5 d-none d-md-block ">
