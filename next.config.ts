@@ -18,6 +18,11 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
+        hostname: 'contentful-accelerator.netlify.app',
+        port: '',
+      },
+      {
+        protocol: 'https',
         hostname: 'images.ctfassets.net',
         port: '',
       },
