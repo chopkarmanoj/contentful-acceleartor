@@ -7,10 +7,22 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: "https",
-        hostname: "images.ctfassets.net",
+        protocol: 'https',
+        hostname: 'espire-*.**',
+        port: '',
+      },
+      {
+        protocol: 'https',
+        hostname: 'contentful-*.**',
+        port: '',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.ctfassets.net',
+        port: '',
       },
     ],
+   
   },
   async headers() {
     return secuityHeadersConfig();
